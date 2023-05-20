@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    color:rgb(25, 159, 192);
+}
+
+div{
+    padding: 10px;
+    border: 15px solid #40bcdb;
+    margin: 20px;
+    background-color: #f1faee;
+    width: 300px;
+    outline: 10px inset #a8dadc;
+}

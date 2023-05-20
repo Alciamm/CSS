@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    color: orangered;
+}
+
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid orangered;
+    padding: 15px;
+    color:maroon;
+}
+
+div.contenedor.descendiente p{
+    background-color: rgb(191, 225, 247);
+}
+
+div.contenedor.hijo > p{
+    background-color:rgb(192, 247, 192);
+}
+
+div.contenedor.adyacente + p {
+    background-color:rgb(252, 210, 216);
+}
+
+div.contenedor.hermano ~ p{
+    background-color: lightgoldenrodyellow;
+}

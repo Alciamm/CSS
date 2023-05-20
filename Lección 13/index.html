@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formato de texto en CSS</title>
+    <link href="/css/estilos.css" rel="stylesheet"/>
+    <script src="alert.js">alert</script>
+</head>
+<body>
+    <h1>Web de aprendizaje</h1>
+    </br>
+    <div class="caja">
+        <p class="texto">
+            En esta página web, podemos encontrar apuntes, ejercicios y toda clase de recursos
+            sobre: <b>CSS, HTML o Javascript </b>.
+        </p>
+        <p class="texto">
+            En el <b>bloque 1</b>, podemos encontrar todo lo referente a CSS.
+        </p>
+        <p class="texto">
+            En el <b>bloque 2</b>, encontraremos los recursos sobre HTML.
+        </p>
+        <p class="texto">
+            Y por último en el <b>bloque 3</b> encontraremos todo lo relacionado con JavaScript.
+        </p>
+    </div>
+
+    <div style="display:flex; gap:15px; flex-wrap: wrap">
+        <div class="bloque texto" style="background-color:lemonchiffon; flex:4">
+            <div style=" padding: 15px;">
+                <b>Bloque 1: CSS</b>
+                <ul>
+                    <li>Apuntes</li>
+                    <li>Ejercicios</li>
+                    <li>Recursos</li>
+                </ul>
+            </div>
+            <div>
+                <img class="language-logo" style="border-color: rgb(248, 248, 54);" src="http://globalmentoring.com.mx/imagenes/css3.png" alt="Logo CSS"/>
+            </div>
+        </div>
+
+        <div class="bloque texto" style="background-color: rgb(216, 247, 248); flex:4">
+            <div style=" padding: 15px;">
+                <b>Bloque 2: HTML</b>
+                <ul>
+                    <li>Apuntes</li>
+                    <li>Ejercicios</li>
+                    <li>Recursos</li>
+                </ul>
+            </div>
+            <div>
+                <img class="language-logo" style="border-color: rgb(166, 236, 238);" src="http://globalmentoring.com.mx/imagenes/html5.png" alt="Logo Html5"/>
+            </div>
+        </div>
+         
+        <div class="bloque texto" style=" flex:4">
+            <div style=" padding: 15px;">
+                <b>Bloque 3: JavaScript</b>
+                <ul>
+                    <li>Apuntes</li>
+                    <li>Ejercicios</li>
+                    <li>Recursos</li>
+                </ul>
+            </div>
+            <div>
+                <img class="language-logo" src="http://globalmentoring.com.mx/imagenes/javascript.png" alt="Logo JavaScript"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: orangered;
+}
+
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid orangered;
+    padding: 15px;
+    color: orangered;
+}
+
+div.contenedor.descendiente p{
+    background-color:khaki;
+}
+
+div.contenedor.hijo > p{
+    background-color: lemonchiffon;
+}

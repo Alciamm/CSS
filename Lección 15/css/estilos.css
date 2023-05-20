@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    color:cornflowerblue
+}
+
+div{
+    padding: 15px;
+    margin: auto;
+    max-width: 400px;
+}
+
+.icono_azul{
+    font-size: 1 em;
+    color: cornflowerblue;
+}
+
+.icono_lila{
+    font-size: 1.5em;
+    color:mediumpurple;
+}

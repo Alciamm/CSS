@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color: cornflowerblue;
+}
+
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid lightblue;
+    padding: 15px;
+    color: royalblue;
+    text-align: center;
+}
+
+img{
+    opacity: 0.5; 
+}
+
+img:hover{
+    opacity: 1.0;
+}

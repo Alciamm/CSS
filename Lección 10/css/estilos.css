@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color: cornflowerblue;
+}
+
+.caja1{
+    padding: 10px 15px 5px 3px;
+    border: 1px solid cornflowerblue;
+    margin: 20px;
+    background-color: aliceblue;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+.caja2{
+    padding: 10px 15px 5px 3px;
+    border: 1px solid cornflowerblue;
+    margin: 20px;
+    background-color: aliceblue;
+    max-width: 300px;
+    box-sizing: border-box;
+}

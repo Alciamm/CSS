@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    color: darkmagenta;
+}
+
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid mediumpurple;
+    padding: 15px;
+    color: darkmagenta;
+}
+
+div.contenedor.descendiente p{
+    background-color:paleturquoise;
+}

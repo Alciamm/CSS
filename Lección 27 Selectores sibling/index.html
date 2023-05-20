@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores CSS</title>
+    <link href="/css/estilos.css" rel="stylesheet"/>
+    <script src="alert.js">alert</script>
+</head>
+<body>
+    <h1>Selectores de tipo Sibling</h1>
+    <div class=" contenedor descendiente">
+        Selecotores de tipo descendiente:
+        <p>Primera línea</p>
+        <p>Segunda línea</p>
+        <p>Tercera línea</p>
+    </div>
+    <div class="contenedor hijo">
+        Selectores hijo (child):
+        <p>Primera línea</p>
+        <p>Segunda línea</p>
+        <section>
+            <p>Tercera línea</p>
+        </section>
+    </div>
+    <div class="contenedor adyacente">
+        Selector adyacente:
+        <p>Primera línea</p>
+    </div>
+    <p>Segunda línea</p>
+    <p>Tercera línea</p>
+
+    <div class="contenedor hermano">
+        Selector hermano (sibling):
+        <p>Primera línea</p>
+    </div>
+    <p>Segunda línea</p>
+    <p>Tercera línea</p>
+</body>
+</html>

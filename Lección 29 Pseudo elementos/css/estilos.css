@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    color: darkgreen;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid darkgreen;
+    padding: 15px;
+    color: lightseagreen;
+    text-align: center;
+}
+
+div.contenedor p::selection{
+    background-color: lightyellow;
+    color:darkslategrey;
+}
+
+div.contenedor p::first-line{
+    color: darkgreen;
+    font-variant:small-caps;
+}
+
+div.contenedor p::first-letter{
+    font-size: 1.5em;
+}
+
+div.contenedor p::before{
+    content: "- ";
+}
+
+div.contenedor p::after{
+    content: " -";
+}
+
+.imagen{
+    padding: 10px;
+    margin: auto;
+    border: 2px solid darkgreen;
+    display: block;
+    justify-content: center;
+    width: 570px;
+    height: 200px;
+}

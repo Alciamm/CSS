@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    color:darkorchid;
+    font-size:xx-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div.contenedor{
+    width: 30%;
+    height: 100px;
+    overflow: auto;
+}
+
+div.contenedor.flotado{
+    float: left;
+}
+
+div.contenedor.flotado.contenedor1{
+    border: 3px dashed darkslateblue;
+}
+
+div.contenedor.flotado.contenedor2{
+    border: 3px dashed hotpink;
+    float: right;
+}
+
+div.contenedor.contenedor3{
+    clear: both;
+    border: 3px dashed mediumaquamarine;
+    margin: auto;
+}

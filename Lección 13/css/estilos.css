@@ -1,0 +1,67 @@
+html{
+    height: auto;
+    min-height: 100%;
+}
+
+img{
+    border-style: solid;
+    background-color: white;
+}
+
+.language-logo {
+    height: 115px;
+}
+
+h1{
+    color: #cc4bc1;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 2px 2px #999c9f;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-decoration: overline underline;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.caja{
+    padding: 15px 15px 15px 30px;
+    margin: auto;
+    
+    background-color: rgb(216, 247, 248);
+    border-radius: 5px;
+    color: #cc4bc1;
+    justify-content: center;
+}
+
+.bloque{
+    display:flex;
+    padding: 15px;
+    margin-top: 15px;
+    width: 90%;
+    background-color: rgb(228, 177, 230) ;
+    border-radius: 5px;
+    color: #cc4bc1 ;
+    justify-content: center;
+}
+
+.contenedor{
+    padding: 15px;
+    margin: auto;
+    width: 100%;
+}
+
+.texto{
+  /*  text-align: justify; */
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    white-space: normal;
+    text-shadow: 1px 1px 2px #ced4da;
+}
+
+body{
+    background: linear-gradient(rgb(249, 223, 250), #3a0ca3);
+    width: 80%;
+    margin-left:10%;
+    padding-top:30px;
+}

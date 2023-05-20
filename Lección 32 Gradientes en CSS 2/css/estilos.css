@@ -1,0 +1,35 @@
+html{
+    height: auto;
+    min-height: 100%;
+}
+
+body{
+    /* background: linear-gradient(rgb(228, 116, 76), #3a0ca3);  */
+    /* background: linear-gradient(to right, lightblue, #3a0ca3); */
+    /* background: linear-gradient(indigo, mediumslateblue, black); */
+    /* background: linear-gradient(to bottom right, rgb(190, 226, 190), seagreen); */
+    /* background: linear-gradient(145deg, rgb(243, 171, 207), rgb(73, 1, 73)); */
+    background: radial-gradient(circle, orangered, rgb(253, 168, 136));
+    color: #f1faee;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+}
+
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid white;
+    padding: 15px;
+    text-align: center;
+}
+
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}

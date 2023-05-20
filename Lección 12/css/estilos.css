@@ -1,0 +1,10 @@
+body{
+    background: dodgerblue url("/img/fondo.png");
+    color: cornsilk;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    background-color: dodgerblue;
+}
